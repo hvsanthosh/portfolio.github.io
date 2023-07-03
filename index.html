@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>santhosh portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1d7cca9434.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!-- <img src="images/logo.png" alt="" class="logo" /> -->
+          <ul id="sidemenue">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenue()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenue()"></i>
+        </nav>
+        <div class="header-text">
+          <p class="tag-line">MERN Stack Developer</p>
+          <h1>Hi, I'm <span>Santhosh</span><br />From Bangalore</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="aboutMe">
+              As a full stack developer, I have a wide range of skills in
+              front-end and back-end web development. I excel in building
+              end-to-end web applications using technologies such as HTML, CSS,
+              JavaScript, React, Redux,Bootstrap, Node.js, Expressjs, and
+              MongoDb database. I am experienced in creating intuitive user
+              interfaces, responsive designs, and efficient data models. With
+              proficiency in version control systems , I am able to collaborate
+              effectively and ensure smooth software development processes. I am
+              a detail-oriented problem solver with strong communication skills
+              and a passion for creating seamless user experiences.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onClick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onClick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onClick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span class="sub-tab">BACK END DEVELOPMENT</span><br />Nodejs
+                  • Expressjs • JWT • REST APIs.
+                </li>
+                <li>
+                  <span class="sub-tab">FRONT END DEVELOPMENT</span
+                  ><br />Reactjs • Redux • Bootstrap • HTML5 • CSS3.
+                </li>
+                <li>
+                  <span class="sub-tab">PROGRAMMING</span><br />Core Java •
+                  JavaScript ES6.
+                </li>
+                <li>
+                  <span class="sub-tab">DATA STRUCTURES AND ALGORITHMS</span
+                  ><br />
+                </li>
+                <li>
+                  <span class="sub-tab">TOOLS & TECHNOLOGY</span><br />Postman •
+                  Git and Github • DevTools • Latex • VS Code.
+                </li>
+                <li>
+                  <span class="sub-tab">SOFT SKILLS</span><br />Team player •
+                  Bias for action • Deliver results.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span class="sub-tab">2020-spring</span><br />INTERNSHIP at
+                  Digiadd Technologies, Bangalore as Web Developer.<br />
+                  • Developed front-end components using React.js,and HTML/CSS
+                  and Bootstrap.<br />
+                  • Conducted bug fixing and troubleshooting to ensure smooth
+                  website functionality.
+                </li>
+                <!-- <li><span>2019-2021</span><br />Team lead at starApp LLC.</li>
+                <li>
+                  <span>2017-2019</span><br />UI/UX design executive at coin
+                  digital lid.
+                </li>
+                <li>
+                  <span>2016-2017</span><br />Intership at ekart eCommerce
+                </li> -->
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span class="sub-tab">2020</span><br />B.E. Information
+                  Science, <br />
+                  Atria Institute of technology, Bangalore.
+                </li>
+                <li>
+                  <span class="sub-tab">2016</span><br />XII(Senior
+                  Secondary),Science, <br />
+                  Byraweshwara PU college, Kolar.
+                </li>
+                <li>
+                  <span class="sub-tab">2014</span><br />
+                  X Secondary,<br />
+                  Deccan Vidya Samsthe, Kolar.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front End Development</h2>
+            <p>
+              Capable of developing responsive frontend applications, using
+              React library, Redux tool kit, Bootstrap, JavaScript and HTML/CSS.
+            </p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Back End Development</h2>
+            <p>
+              Have hands on experience developing backend using RESTAPIs, and
+              popular cutting edge technologies like Nodejs, Express framework,
+              Postman, and MongoDb.
+            </p>
+            <!-- <a href="#">Learn More</a> -->
+          </div>
+          <!-- <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              numquam obcaecati totam quae rem quibusdam accusamus incidunt
+              laudantium magnam error?
+            </p>
+            <a href="#">Learn More</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.jpg" alt="" />
+            <div class="layer">
+              <h3>E-Commerce App</h3>
+              <p>
+                MERN Stack CRUD Application with all modern futures included in
+                e-Business.
+                <!-- Built a fully functional CRUD app with persistent login and
+                includes all the modern features like Authentication, payment
+                gateway,filters,search,cart, and admin dashboard to manage -->
+                <!-- orders. TechStack:
+                React,Express,Mongodb,Redux,JWT,Bootstrap,HTML/CSS and Paypal
+                payment gateway. -->
+              </p>
+              <a href="https://github.com/hvsanthosh/Ecommerce-mern-app"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.jpg" alt="" />
+            <div class="layer">
+              <h3>Chat GPT 3 Clone</h3>
+              <p>
+                This MERN app is based on OpenAI's ChatGPT api.
+                <!-- This MERN app is based on OpenAI's ChatGPT api. Includes many
+                useful as follows Summarize text, Paragraph Generation,
+                Javascript Converter, AI SCIFI Images and AI ChatBot. -->
+              </p>
+              <a href="https://github.com/hvsanthosh/ChatGPT-3-clone-app"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.jpg" alt="" />
+            <div class="layer">
+              <h3>Jobs API</h3>
+              <p>
+                Developed backend and swagger documentation helpful for job
+                seeker to keep track of jobs.
+                <!-- Developed back-end with all CRUD operations, Login functionality
+                and Authentication using JWT. Using this api job seeker can keep
+                track of his/her jobs. -->
+              </p>
+              <a href="https://github.com/hvsanthosh/JobsApi"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>hvsanthosh.js@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> 8123919390</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/santhosh-h-v-a719b6250/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/hvsanthosh?tab=repositories"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.facebook.com/profile.php?id=100012241921413"
+                ><i class="fab fa-facebook"></i
+              ></a>
+
+              <a href="https://www.instagram.com/santhoshhimself/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <a href="images/santhosh_cv.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Santhosh.</p>
+      </div>
+    </div>
+    <!--  -->
+    <!-- script -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenue");
+      function openmenue() {
+        sidemeu.style.right = "0";
+      }
+      function closemenue() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <!-- code from github for form -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyTxXHbI9y3qPnRYnAbK5C6iS3mpJk40ZbybAnsy2hAFgFiE8WqMPMPhHhdIWwgHGbo9g/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
